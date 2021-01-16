@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:src="@drawable/fitness_logo_png_2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="50dp"
+        android:text="Username"
+        android:textSize="8dp"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/custom_button"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="75dp"
+        android:text="Username"
+        android:textSize="8dp"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="signIn"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="Sign In"
+        android:textSize="8dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@drawable/btn_wl"
+        android:layout_marginTop="120dp"/>
+
+</androidx.wear.widget.BoxInsetLayout>

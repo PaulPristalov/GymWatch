@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".AddDrinkActivity"
+    tools:deviceIds="wear">
+
+    <Button
+        android:onClick="cancel"
+        android:layout_width="60dp"
+        android:layout_height="15dp"
+        android:background="@android:color/transparent"
+        android:text="Cancel"
+        android:textSize="10dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="0 ml"
+        android:textSize="28dp"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="130dp"
+        android:text="Add"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_add"/>
+
+</androidx.wear.widget.BoxInsetLayout>
+
